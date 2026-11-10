@@ -55,3 +55,26 @@ The tests assert the current behaviour and note where it deviates from REST conv
 
 ## Sample resume bullet
 > Built a pytest and requests API automation framework with 30+ tests covering CRUD, authentication, JSON schema validation and negative cases, with HTML reporting and a GitHub Actions CI pipeline.
+## 📊 Test Execution Report
+
+The API automation test suite was executed successfully using Pytest and the pytest-html reporting plugin.
+
+### Test Summary
+
+| Metric | Result |
+|---|---:|
+| Total Test Cases | 28 |
+| Passed | 28 |
+| Failed | 0 |
+| Skipped | 0 |
+| Execution Time | 20 seconds |
+
+### Test Report Summary
+
+![Test Report Summary](screenshots/test-report-summary.png)
+
+### Detailed Test Results
+
+![Detailed Test Results](screenshots/test-report-details.png)
+
+**Final Result:** 100% test execution success with all 28 test cases passed.
